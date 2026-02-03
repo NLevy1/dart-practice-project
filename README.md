@@ -1,2 +1,2 @@
-# dart-practice-project
-Local ETL project to get familiar with Dart
+A sample command-line application with an entrypoint in `bin/`, library code
+in `lib/`, and example unit test in `test/`.
