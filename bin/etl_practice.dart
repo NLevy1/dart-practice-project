@@ -1,6 +1,6 @@
 import 'package:csv/csv.dart';
 import 'dart:io';
-import 'package:etl_practice/etl_practice.dart';
+import 'package:dart_practice_projects_functions/dart_practice_projects_functions.dart';
 
 void main() async {
   final file = File('data.csv');
