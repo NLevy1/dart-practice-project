@@ -10,13 +10,12 @@ void main() async {
     return;
   }
 
- List<Transaction> cleanData = await loadData();
+  List<Transaction> cleanData = await loadData();
 
   print('Loaded ${cleanData.length} rows.');
-  
+
   if (cleanData.isNotEmpty) {
     var groceries = cleanData.where((t) => t.category == 'Groceries');
     print('Grocery Transactions: ${groceries.length}');
   }
 }
-
